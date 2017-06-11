@@ -1,14 +1,15 @@
-{% set version = "0.4.p0" %}
+{% set version = "0.5" %}
+{% set patchlevel = "p0" %}
 {% set name = "sagemath-db-conway-polynomials" %}
 
 package:
   name: {{ name }}
-  version: {{ version }}
+  version: {{ version }}.{{ patchlevel }}
 
 source:
   fn: {{ name }}-{{ version }}.tar.bz2
-  url: http://files.sagemath.org/spkg/upstream/conway_polynomials/conway_polynomials-0.4.tar.bz2
-  sha256: 5646e45374138c8bf7d9b1e80827393d82c3e82d95ee15ef48a8795ec86673bd
+  url: http://files.sagemath.org/spkg/upstream/conway_polynomials/conway_polynomials-{{ version }}.tar.bz2
+  sha256: d8f2788a85b1c2482cc4abe1a35d3da777445e21ec49b031d36b899e3c0deb17
 
 build:
   number: 0
