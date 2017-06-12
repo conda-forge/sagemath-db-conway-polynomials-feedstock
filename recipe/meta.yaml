@@ -17,15 +17,16 @@ build:
 
 requirements:
   build:
-    - toolchain
-    - sagelib
+    - python
+    - six
     - curl
   run:
-    - sagelib
+    - python
+    - six
 
 test:
   commands:
-    - test -f "$PREFIX/share/conway_polynomials/conway_polynomials.sobj"
+    - test -f "$PREFIX/share/conway_polynomials/conway_polynomials.p"
 
 about:
   home: http://github.com/sagemath/sage
