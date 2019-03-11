@@ -5,9 +5,9 @@ channel_sources:
 channel_targets:
 - conda-forge main
 curl:
-- '7.59'
+- '7.64'
 docker_image:
-- conda/c3i-linux-64
+- condaforge/linux-anvil-comp7
 pin_run_as_build:
   curl:
     max_pin: x
@@ -16,8 +16,3 @@ pin_run_as_build:
     max_pin: x.x
 python:
 - '3.6'
-zip_keys:
-- - channel_sources
-  - channel_targets
-  - docker_image
-  - build_number_decrement
