@@ -1,5 +1,5 @@
 {% set version = "0.5" %}
-{% set patchlevel = "p0" %}
+{% set patchlevel = "0" %}
 {% set name = "sagemath-db-conway-polynomials" %}
 
 package:
