@@ -19,12 +19,12 @@ build:
 
 requirements:
   build:
-    - python
+    - python >=3.6
     - six
     - curl
   host:
   run:
-    - python
+    - python >=3.6
     - six
 
 test:
