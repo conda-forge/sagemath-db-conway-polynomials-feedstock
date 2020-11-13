@@ -18,10 +18,11 @@ build:
   skip: true  # [win]
 
 requirements:
-  host:
+  build:
     - python
     - six
     - curl
+  host:
   run:
     - python
     - six
@@ -32,7 +33,7 @@ test:
 
 about:
   home: http://github.com/sagemath/sage
-  license: GPLv3
+  license: GPL-3.0-or-later
   summary: sagemath-db-conway-polynomials contains a small database of Conway polynomials.
 
 extra:
