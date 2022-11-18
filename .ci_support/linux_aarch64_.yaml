@@ -11,9 +11,6 @@ channel_targets:
 curl:
 - '7'
 docker_image:
-- quay.io/condaforge/linux-anvil-aarch64
-pin_run_as_build:
-  curl:
-    max_pin: x
+- quay.io/condaforge/linux-anvil-cos7-x86_64
 target_platform:
 - linux-aarch64
